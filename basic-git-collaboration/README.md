@@ -83,6 +83,6 @@
     > ```shell
     > git checkout <main_branch>
     > git pull
-    > git checkout feature/<branch_name>\
+    > git checkout feature/<branch_name>
     > git rebase main
     > ```
