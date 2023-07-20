@@ -1,0 +1,56 @@
+.value {
+  font-weight: bold;
+}
+
+.errorMessage {
+  margin-bottom: 1rem;
+  background-color: rgb(225, 132, 132);
+  padding: .5rem 1rem;
+  border-radius: .5rem;
+  animation: shaking .3s ease-in-out;
+}
+
+@keyframes shaking {
+  0% {
+    transform: rotate(10deg);
+  }
+
+  50% {
+    transform: rotate(-10deg);
+  }
+}
+
+.buttonsContainer {
+  display: flex;
+  gap: 1rem;
+}
+
+.buttonsContainer button {
+  background-color: transparent;
+  padding: 1rem;
+  border-radius: .5rem;
+  border-style: solid;
+  font-family: inherit;
+  font-weight: bold;
+  border-width: 3px;
+}
+
+.buttonsContainer button:hover {
+  cursor: pointer;
+}
+
+.incrementBtn {
+  border-color: #3494e6;
+}
+
+.incrementBtn:hover {
+  box-shadow: 0 0 10px 2px #3494e6;
+}
+
+.decrementBtn {
+  border-color: #ee82ee;
+}
+
+.decrementBtn:hover {
+  box-shadow: 0 0 10px 2px #ee82ee;
+}
