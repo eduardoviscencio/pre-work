@@ -1,0 +1,23 @@
+.todo {
+  font-weight: bold;
+  background-color: #161b22;
+  padding: 1rem;
+  width: 100%;
+  display: flex;
+  border-radius: .5rem;
+}
+
+.todoCompleted {
+  text-decoration: line-through;
+  color: #999999;
+}
+
+input[type='checkbox'] {
+  margin-right: .5rem;
+  accent-color: #a79cff;
+  width: 50px;
+}
+
+input:hover {
+  cursor: pointer;
+}

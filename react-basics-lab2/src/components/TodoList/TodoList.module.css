@@ -1,0 +1,11 @@
+.todoListContainer {
+  display: flex;
+  flex-direction: column;
+}
+
+.todosContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  gap: .25rem;
+}

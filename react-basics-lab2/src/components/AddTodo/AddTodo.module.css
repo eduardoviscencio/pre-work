@@ -1,0 +1,32 @@
+.form {
+  margin-block: 2rem;
+  display: flex;
+  align-items: center;
+  gap: .5rem;
+}
+
+.inputText {
+  width: 100%;
+  border: none;
+  padding: 1rem .5rem;
+  border-radius: .5rem;
+  background-color: rgba(167, 156, 255, .25);
+  font-family: inherit;
+  color: white;
+  font-size: inherit;
+  outline: 2px solid #a79cff;
+}
+
+.addBtn {
+  width: 8rem;
+  background-color: transparent;
+  border: 2px solid #a79cff;
+  color: white;
+  font-size: inherit;
+  border-radius: .5rem;
+  padding: 1rem;
+}
+
+.addBtn:hover {
+  cursor: pointer;
+}
