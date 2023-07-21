@@ -1,0 +1,24 @@
+@media screen and (min-width: 992px) {
+  .sidebar {
+    order: -1;
+    width: 20rem;
+    position: sticky;
+    top: 14rem;
+    border-top: none;
+    align-self: flex-start;
+  }
+
+  .main {
+    display: flex;
+  }
+
+  .container {
+    flex: 1;
+    padding-inline: 2rem;
+  }
+
+  .container__section {
+    max-width: 75ch;
+    margin-inline: auto;
+  }
+}

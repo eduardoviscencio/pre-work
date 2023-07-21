@@ -1,0 +1,32 @@
+@media screen and (min-width: 798px) {
+  html {
+    scroll-padding-top: 17rem;
+  }
+
+  .header__open-nav {
+    display: none;
+  }
+
+  .nav__menu {
+    position: sticky;
+    background-color: #fff;
+    top: 8rem;
+    height: 6rem;
+    border-bottom: 1px solid #ddd;
+  }
+
+  .nav__menu-list {
+    flex-direction: row;
+    justify-content: space-evenly;
+    width: 100%;
+    height: 3rem;
+  }
+
+  .nav__item a {
+    color: #000;
+  }
+
+  .nav__close {
+    display: none;
+  }
+}
